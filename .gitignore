@@ -1,6 +1,10 @@
+#DEPENDECIES
 node_modules
-db/app.db
+db/*.db
 
-
+#ARQUIVOS DE CONFIGURACAO
 .env
 .env.test
+
+#ARQUIVOS DE BUILD
+build

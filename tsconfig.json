@@ -4,8 +4,11 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
+    // ESSAS CONFIGURACOES SAO PARA O 
+    // TSUP - TRANSPILAR O CODIGO PARA JS E COLOCAR NA PASTA BUILD 
+    // (QUE É A PASTA DE SAIDA Q ELE GERA COM O COMANDO : npx tsc)
+     //"rootDir": "./src",
+     //"outDir": "./build",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
