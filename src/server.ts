@@ -6,7 +6,7 @@ import { env } from './env/index.js'
 //    - .then() = "quando terminar de ligar, faça isso..."
 //    - console.log = mostrar uma mensagem no terminal (para nós sabermos que está funcionando)
 app.listen({ port: env.PORT }).then(() => {
-  console.log('HTTP server running on http://localhost:3333')
+  console.log(`HTTP server running on http://localhost:${env.PORT}`)
 })
 
 
