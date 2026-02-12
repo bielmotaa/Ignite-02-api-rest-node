@@ -2,7 +2,7 @@
   "name": "api-rest-nodejs",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": { 
+  "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
@@ -20,6 +20,7 @@
     "@types/node": "^25.1.0",
     "@types/supertest": "^6.0.3",
     "supertest": "^7.2.2",
+    "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
